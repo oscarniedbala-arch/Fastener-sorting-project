@@ -1,0 +1,439 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\ON> python screw_cv_measure_v2_FIXED12.py ^
+>>   --image path\to\capturem5.jpg ^
+>>   --marker-mm 40 ^
+>>   --out annotated.jpg ^
+>>   --json result.json ^
+>>   --debug-dir dbg
+>>
+At line:2 char:5
++   --image path\to\capturem5.jpg ^
++     ~
+Missing expression after unary operator '--'.
+At line:2 char:5
++   --image path\to\capturem5.jpg ^
++     ~~~~~
+Unexpected token 'image' in expression or statement.
+At line:3 char:5
++   --marker-mm 40 ^
++     ~
+Missing expression after unary operator '--'.
+At line:3 char:5
++   --marker-mm 40 ^
++     ~~~~~~~~~
+Unexpected token 'marker-mm' in expression or statement.
+At line:4 char:5
++   --out annotated.jpg ^
++     ~
+Missing expression after unary operator '--'.
+At line:4 char:5
++   --out annotated.jpg ^
++     ~~~
+Unexpected token 'out' in expression or statement.
+At line:5 char:5
++   --json result.json ^
++     ~
+Missing expression after unary operator '--'.
+At line:5 char:5
++   --json result.json ^
++     ~~~~
+Unexpected token 'json' in expression or statement.
+At line:6 char:5
++   --debug-dir dbg
++     ~
+Missing expression after unary operator '--'.
+At line:6 char:5
++   --debug-dir dbg
++     ~~~~~~~~~
+Unexpected token 'debug-dir' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\ON> python .\screw_cv_measure_v2_FIXED12.py --image ".\V10_3_SSA\capturem5.jpg" --marker-mm 40 --out "annotated.jpg" --json "result.json" --debug-dir "dbg"
+>>
+Traceback (most recent call last):
+  File "C:\Users\ON\screw_cv_measure_v2_FIXED12.py", line 24, in <module>
+    import cv2
+ModuleNotFoundError: No module named 'cv2'
+PS C:\Users\ON> dir .\screw_cv_measure_v2_FIXED12.py
+>>
+
+
+    Directory: C:\Users\ON
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        31/01/2026     21:28          37730 screw_cv_measure_v2_FIXED12.py
+
+
+PS C:\Users\ON> dir .\V10_3_SSA\capturem5.jpg
+>>
+dir : Cannot find path 'C:\Users\ON\V10_3_SSA\capturem5.jpg' because it does not exist.
+At line:1 char:1
++ dir .\V10_3_SSA\capturem5.jpg
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\ON\V10_3_SSA\capturem5.jpg:String) [Get-ChildItem], ItemNotFou
+   ndException
+    + FullyQualipython -c "import sys; print(sys.executable)"ll.Commands.GetChildItemCommand
+>> python -m pip -V
+>> C:\Users\ON>
+C:\Program Files\Inkscape\bin\python.exe
+pip 25.3 from C:\Users\ON\.local\lib\python3.10-mingw_x86_64\site-packages\pip (python 3.10)
+PS C:\Users\ON> python -m pip install --upgrade pip
+>> python -m pip install opencv-python numpy
+>>
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: pip in c:\users\on\.local\lib\python3.10-mingw_x86_64\site-packages (25.3)
+Collecting pip
+  Downloading pip-26.0-py3-none-any.whl.metadata (4.7 kB)
+Downloading pip-26.0-py3-none-any.whl (1.8 MB)
+   ---------------------------------------- 1.8/1.8 MB 12.2 MB/s  0:00:00
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 25.3
+    Uninstalling pip-25.3:
+      Successfully uninstalled pip-25.3
+  WARNING: The scripts pip.exe, pip3.10.exe and pip3.exe are installed in 'C:\Users\ON\.local\bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed pip-26.0
+Defaulting to user installation because normal site-packages is not writeable
+Collecting opencv-python
+  Using cached opencv-python-4.12.0.88.tar.gz (95.4 MB)
+  Installing build dependencies ... error
+  error: subprocess-exited-with-error
+
+  × installing build dependencies for opencv-python did not run successfully.
+  │ exit code: 1
+  ╰─> [142 lines of output]
+      Ignoring numpy: markers 'python_version < "3.9"' don't match your environment
+      Ignoring numpy: markers 'python_version == "3.13"' don't match your environment
+      Ignoring setuptools: markers 'python_version >= "3.12"' don't match your environment
+      Collecting numpy==2.0.2
+        Using cached numpy-2.0.2.tar.gz (18.9 MB)
+        Installing build dependencies: started
+        Installing build dependencies: finished with status 'done'
+        Getting requirements to build wheel: started
+        Getting requirements to build wheel: finished with status 'done'
+        Installing backend dependencies: started
+        Installing backend dependencies: finished with status 'error'
+        error: subprocess-exited-with-error
+
+        installing backend dependencies for numpy did not run successfully.
+        exit code: 1
+
+        [121 lines of output]
+        Collecting ninja>=1.8.2
+          Using cached ninja-1.13.0.tar.gz (242 kB)
+          Installing build dependencies: started
+          Installing build dependencies: finished with status 'done'
+          Getting requirements to build wheel: started
+          Getting requirements to build wheel: finished with status 'done'
+          Installing backend dependencies: started
+          Installing backend dependencies: finished with status 'error'
+          error: subprocess-exited-with-error
+
+          installing backend dependencies for ninja did not run successfully.
+          exit code: 1
+
+          [103 lines of output]
+          Collecting setuptools-scm
+            Using cached setuptools_scm-9.2.2-py3-none-any.whl.metadata (7.7 kB)
+          Collecting cmake>=3.15
+            Using cached cmake-4.2.1.tar.gz (37 kB)
+            Installing build dependencies: started
+            Installing build dependencies: finished with status 'done'
+            Getting requirements to build wheel: started
+            Getting requirements to build wheel: finished with status 'done'
+            Preparing metadata (pyproject.toml): started
+            Preparing metadata (pyproject.toml): finished with status 'done'
+          Collecting hatch-fancy-pypi-readme>=22.3
+            Using cached hatch_fancy_pypi_readme-25.1.0-py3-none-any.whl.metadata (2.0 kB)
+          Collecting packaging>=20 (from setuptools-scm)
+            Using cached packaging-26.0-py3-none-any.whl.metadata (3.3 kB)
+          Collecting setuptools (from setuptools-scm)
+            Using cached setuptools-80.10.2-py3-none-any.whl.metadata (6.6 kB)
+          Collecting tomli>=1 (from setuptools-scm)
+            Using cached tomli-2.4.0-py3-none-any.whl.metadata (10 kB)
+          Collecting hatchling (from hatch-fancy-pypi-readme>=22.3)
+            Using cached hatchling-1.28.0-py3-none-any.whl.metadata (3.8 kB)
+          Collecting pathspec>=0.10.1 (from hatchling->hatch-fancy-pypi-readme>=22.3)
+            Using cached pathspec-1.0.4-py3-none-any.whl.metadata (13 kB)
+          Collecting pluggy>=1.0.0 (from hatchling->hatch-fancy-pypi-readme>=22.3)
+            Using cached pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+          Collecting trove-classifiers (from hatchling->hatch-fancy-pypi-readme>=22.3)
+            Using cached trove_classifiers-2026.1.14.14-py3-none-any.whl.metadata (2.4 kB)
+          Using cached setuptools_scm-9.2.2-py3-none-any.whl (62 kB)
+          Using cached hatch_fancy_pypi_readme-25.1.0-py3-none-any.whl (10 kB)
+          Using cached packaging-26.0-py3-none-any.whl (74 kB)
+          Using cached tomli-2.4.0-py3-none-any.whl (14 kB)
+          Using cached hatchling-1.28.0-py3-none-any.whl (76 kB)
+          Using cached pathspec-1.0.4-py3-none-any.whl (55 kB)
+          Using cached pluggy-1.6.0-py3-none-any.whl (20 kB)
+          Using cached setuptools-80.10.2-py3-none-any.whl (1.1 MB)
+          Using cached trove_classifiers-2026.1.14.14-py3-none-any.whl (14 kB)
+          Building wheels for collected packages: cmake
+            Building wheel for cmake (pyproject.toml): started
+            Building wheel for cmake (pyproject.toml): finished with status 'error'
+            error: subprocess-exited-with-error
+
+            Building wheel for cmake (pyproject.toml) did not run successfully.
+            exit code: 1
+
+            [49 lines of output]
+            Traceback (most recent call last):
+              File "C:\Program Files\Inkscape\lib\python3.10\urllib\request.py", line 1348, in do_open
+                h.request(req.get_method(), req.selector, req.data, headers,
+              File "C:\Program Files\Inkscape\lib\python3.10\http\client.py", line 1282, in request
+                self._send_request(method, url, body, headers, encode_chunked)
+              File "C:\Program Files\Inkscape\lib\python3.10\http\client.py", line 1328, in _send_request
+                self.endheaders(body, encode_chunked=encode_chunked)
+              File "C:\Program Files\Inkscape\lib\python3.10\http\client.py", line 1277, in endheaders
+                self._send_output(message_body, encode_chunked=encode_chunked)
+              File "C:\Program Files\Inkscape\lib\python3.10\http\client.py", line 1037, in _send_output
+                self.send(msg)
+              File "C:\Program Files\Inkscape\lib\python3.10\http\client.py", line 975, in send
+                self.connect()
+              File "C:\Program Files\Inkscape\lib\python3.10\http\client.py", line 1454, in connect
+                self.sock = self._context.wrap_socket(self.sock,
+              File "C:\Program Files\Inkscape\lib\python3.10\ssl.py", line 513, in wrap_socket
+                return self.sslsocket_class._create(
+              File "C:\Program Files\Inkscape\lib\python3.10\ssl.py", line 1071, in _create
+                self.do_handshake()
+              File "C:\Program Files\Inkscape\lib\python3.10\ssl.py", line 1342, in do_handshake
+                self._sslobj.do_handshake()
+            ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+
+            During handling of the above exception, another exception occurred:
+
+            Traceback (most recent call last):
+              File "C:\Users\ON\.local\lib\python3.10-mingw_x86_64\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 389, in <module>
+                main()
+              File "C:\Users\ON\.local\lib\python3.10-mingw_x86_64\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 373, in main
+                json_out["return_val"] = hook(**hook_input["kwargs"])
+              File "C:\Users\ON\.local\lib\python3.10-mingw_x86_64\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 280, in build_wheel
+                return _build_backend().build_wheel(
+              File "C:\Users\ON\AppData\Local\Temp\pip-install-_a7pxsxk\cmake_6a3727d7ffb64c2fa184384cec079914\_build_backend\backend.py", line 156, in build_wheel
+                cmake_path = _bootstrap_build(temp_path, config_settings)
+              File "C:\Users\ON\AppData\Local\Temp\pip-install-_a7pxsxk\cmake_6a3727d7ffb64c2fa184384cec079914\_build_backend\backend.py", line 103, in _bootstrap_build
+                with urllib.request.urlopen(archive_url) as response:
+              File "C:\Program Files\Inkscape\lib\python3.10\urllib\request.py", line 216, in urlopen
+                return opener.open(url, data, timeout)
+              File "C:\Program Files\Inkscape\lib\python3.10\urllib\request.py", line 519, in open
+                response = self._open(req, data)
+              File "C:\Program Files\Inkscape\lib\python3.10\urllib\request.py", line 536, in _open
+                result = self._call_chain(self.handle_open, protocol, protocol +
+              File "C:\Program Files\Inkscape\lib\python3.10\urllib\request.py", line 496, in _call_chain
+                result = func(*args)
+              File "C:\Program Files\Inkscape\lib\python3.10\urllib\request.py", line 1391, in https_open
+                return self.do_open(http.client.HTTPSConnection, req,
+              File "C:\Program Files\Inkscape\lib\python3.10\urllib\request.py", line 1351, in do_open
+                raise URLError(err)
+            urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+            [end of output]
+
+            note: This error originates from a subprocess, and is likely not a problem with pip.
+            ERROR: Failed building wheel for cmake
+          Failed to build cmake
+          error: failed-wheel-build-for-install
+
+          Failed to build installable wheels for some pyproject.toml based projects
+
+          cmake
+          [end of output]
+
+          note: This error originates from a subprocess, and is likely not a problem with pip.
+        ERROR: Failed to build 'ninja' when installing backend dependencies for ninja
+        [end of output]
+
+        note: This error originates from a subprocess, and is likely not a problem with pip.
+      ERROR: Failed to build 'numpy' when installing backend dependencies for numpy
+      [end of output]
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'opencv-python' when installing build dependencies for opencv-python
+PS C:\Users\ON> python -c "import cv2; print('cv2 ok:', cv2.__version__)"
+>>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'cv2'
+PS C:\Users\ON> .\.venv\Scripts\Activate.ps1
+>> python -m pip install opencv-python numpy
+>>
+.\.venv\Scripts\Activate.ps1 : File C:\Users\ON\.venv\Scripts\Activate.ps1 cannot be loaded because running scripts is disabled on
+this system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ .\.venv\Scripts\Activate.ps1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+Defaulting to user installation because normal site-packages is not writeable
+Collecting opencv-python
+  Using cached opencv-python-4.12.0.88.tar.gz (95.4 MB)
+  Installing build dependencies ... error
+  error: subprocess-exited-with-error
+
+  × installing build dependencies for opencv-python did not run successfully.
+  │ exit code: 1
+  ╰─> [142 lines of output]
+      Ignoring numpy: markers 'python_version < "3.9"' don't match your environment
+      Ignoring numpy: markers 'python_version == "3.13"' don't match your environment
+      Ignoring setuptools: markers 'python_version >= "3.12"' don't match your environment
+      Collecting numpy==2.0.2
+        Using cached numpy-2.0.2.tar.gz (18.9 MB)
+        Installing build dependencies: started
+        Installing build dependencies: finished with status 'done'
+        Getting requirements to build wheel: started
+        Getting requirements to build wheel: finished with status 'done'
+        Installing backend dependencies: started
+        Installing backend dependencies: finished with status 'error'
+        error: subprocess-exited-with-error
+
+        installing backend dependencies for numpy did not run successfully.
+        exit code: 1
+
+        [121 lines of output]
+        Collecting ninja>=1.8.2
+          Using cached ninja-1.13.0.tar.gz (242 kB)
+          Installing build dependencies: started
+          Installing build dependencies: finished with status 'done'
+          Getting requirements to build wheel: started
+          Getting requirements to build wheel: finished with status 'done'
+          Installing backend dependencies: started
+          Installing backend dependencies: finished with status 'error'
+          error: subprocess-exited-with-error
+
+          installing backend dependencies for ninja did not run successfully.
+          exit code: 1
+
+          [103 lines of output]
+          Collecting cmake>=3.15
+            Using cached cmake-4.2.1.tar.gz (37 kB)
+            Installing build dependencies: started
+            Installing build dependencies: finished with status 'done'
+            Getting requirements to build wheel: started
+            Getting requirements to build wheel: finished with status 'done'
+            Preparing metadata (pyproject.toml): started
+            Preparing metadata (pyproject.toml): finished with status 'done'
+          Collecting hatch-fancy-pypi-readme>=22.3
+            Using cached hatch_fancy_pypi_readme-25.1.0-py3-none-any.whl.metadata (2.0 kB)
+          Collecting setuptools-scm
+            Using cached setuptools_scm-9.2.2-py3-none-any.whl.metadata (7.7 kB)
+          Collecting hatchling (from hatch-fancy-pypi-readme>=22.3)
+            Using cached hatchling-1.28.0-py3-none-any.whl.metadata (3.8 kB)
+          Collecting tomli (from hatch-fancy-pypi-readme>=22.3)
+            Using cached tomli-2.4.0-py3-none-any.whl.metadata (10 kB)
+          Collecting packaging>=20 (from setuptools-scm)
+            Using cached packaging-26.0-py3-none-any.whl.metadata (3.3 kB)
+          Collecting setuptools (from setuptools-scm)
+            Using cached setuptools-80.10.2-py3-none-any.whl.metadata (6.6 kB)
+          Collecting pathspec>=0.10.1 (from hatchling->hatch-fancy-pypi-readme>=22.3)
+            Using cached pathspec-1.0.4-py3-none-any.whl.metadata (13 kB)
+          Collecting pluggy>=1.0.0 (from hatchling->hatch-fancy-pypi-readme>=22.3)
+            Using cached pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+          Collecting trove-classifiers (from hatchling->hatch-fancy-pypi-readme>=22.3)
+            Using cached trove_classifiers-2026.1.14.14-py3-none-any.whl.metadata (2.4 kB)
+          Using cached hatch_fancy_pypi_readme-25.1.0-py3-none-any.whl (10 kB)
+          Using cached setuptools_scm-9.2.2-py3-none-any.whl (62 kB)
+          Using cached packaging-26.0-py3-none-any.whl (74 kB)
+          Using cached tomli-2.4.0-py3-none-any.whl (14 kB)
+          Using cached hatchling-1.28.0-py3-none-any.whl (76 kB)
+          Using cached pathspec-1.0.4-py3-none-any.whl (55 kB)
+          Using cached pluggy-1.6.0-py3-none-any.whl (20 kB)
+          Using cached setuptools-80.10.2-py3-none-any.whl (1.1 MB)
+          Using cached trove_classifiers-2026.1.14.14-py3-none-any.whl (14 kB)
+          Building wheels for collected packages: cmake
+            Building wheel for cmake (pyproject.toml): started
+            Building wheel for cmake (pyproject.toml): finished with status 'error'
+            error: subprocess-exited-with-error
+
+            Building wheel for cmake (pyproject.toml) did not run successfully.
+            exit code: 1
+
+            [49 lines of output]
+            Traceback (most recent call last):
+              File "C:\Program Files\Inkscape\lib\python3.10\urllib\request.py", line 1348, in do_open
+                h.request(req.get_method(), req.selector, req.data, headers,
+              File "C:\Program Files\Inkscape\lib\python3.10\http\client.py", line 1282, in request
+                self._send_request(method, url, body, headers, encode_chunked)
+              File "C:\Program Files\Inkscape\lib\python3.10\http\client.py", line 1328, in _send_request
+                self.endheaders(body, encode_chunked=encode_chunked)
+              File "C:\Program Files\Inkscape\lib\python3.10\http\client.py", line 1277, in endheaders
+                self._send_output(message_body, encode_chunked=encode_chunked)
+              File "C:\Program Files\Inkscape\lib\python3.10\http\client.py", line 1037, in _send_output
+                self.send(msg)
+              File "C:\Program Files\Inkscape\lib\python3.10\http\client.py", line 975, in send
+                self.connect()
+              File "C:\Program Files\Inkscape\lib\python3.10\http\client.py", line 1454, in connect
+                self.sock = self._context.wrap_socket(self.sock,
+              File "C:\Program Files\Inkscape\lib\python3.10\ssl.py", line 513, in wrap_socket
+                return self.sslsocket_class._create(
+              File "C:\Program Files\Inkscape\lib\python3.10\ssl.py", line 1071, in _create
+                self.do_handshake()
+              File "C:\Program Files\Inkscape\lib\python3.10\ssl.py", line 1342, in do_handshake
+                self._sslobj.do_handshake()
+            ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+
+            During handling of the above exception, another exception occurred:
+
+            Traceback (most recent call last):                                                                                                      File "C:\Users\ON\.local\lib\python3.10-mingw_x86_64\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 389, in <module>                                                                                                                             main()                                                                                                                              File "C:\Users\ON\.local\lib\python3.10-mingw_x86_64\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 373, in main
+                json_out["return_val"] = hook(**hook_input["kwargs"])
+              File "C:\Users\ON\.local\lib\python3.10-mingw_x86_64\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 280, in build_wheel
+                return _build_backend().build_wheel(
+              File "C:\Users\ON\AppData\Local\Temp\pip-install-kebsvwzz\cmake_334e631f229840dfbadb6aa12b00e2b4\_build_backend\backend.py", line 156, in build_wheel
+                cmake_path = _bootstrap_build(temp_path, config_settings)
+              File "C:\Users\ON\AppData\Local\Temp\pip-install-kebsvwzz\cmake_334e631f229840dfbadb6aa12b00e2b4\_build_backend\backend.py", line 103, in _bootstrap_build
+                with urllib.request.urlopen(archive_url) as response:
+              File "C:\Program Files\Inkscape\lib\python3.10\urllib\request.py", line 216, in urlopen
+                return opener.open(url, data, timeout)
+              File "C:\Program Files\Inkscape\lib\python3.10\urllib\request.py", line 519, in open
+                response = self._open(req, data)
+              File "C:\Program Files\Inkscape\lib\python3.10\urllib\request.py", line 536, in _open
+                result = self._call_chain(self.handle_open, protocol, protocol +
+              File "C:\Program Files\Inkscape\lib\python3.10\urllib\request.py", line 496, in _call_chain
+                result = func(*args)
+              File "C:\Program Files\Inkscape\lib\python3.10\urllib\request.py", line 1391, in https_open
+                return self.do_open(http.client.HTTPSConnection, req,
+              File "C:\Program Files\Inkscape\lib\python3.10\urllib\request.py", line 1351, in do_open
+                raise URLError(err)
+            urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+            [end of output]
+
+            note: This error originates from a subprocess, and is likely not a problem with pip.
+            ERROR: Failed building wheel for cmake
+          Failed to build cmake
+          error: failed-wheel-build-for-install
+
+          Failed to build installable wheels for some pyproject.toml based projects
+
+          cmake
+          [end of output]
+
+          note: This error originates from a subprocess, and is likely not a problem with pip.
+        ERROR: Failed to build 'ninja' when installing backend dependencies for ninja
+        [end of output]
+
+        note: This error originates from a subprocess, and is likely not a problem with pip.
+      ERROR: Failed to build 'numpy' when installing backend dependencies for numpy
+      [end of output]
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'opencv-python' when installing build dependencies for opencv-python
+PS C:\Users\ON> Invoke-WebRequest "http://192.168.0.202/capture.jpg" -OutFile ".\test.jpg"
+>> dir .\test.jpg
+>>
+
+
+    Directory: C:\Users\ON
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        31/01/2026     22:14          65796 test.jpg
+
+
+PS C:\Users\ON>

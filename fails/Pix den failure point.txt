@@ -1,0 +1,15 @@
+around px/mm ≈ 3.45.
+
+1.0 mm ≈ 3.45 px
+
+Cap-head shaft diameters become (very approximately):
+
+M3 ≈ 10.4 px
+
+M4 ≈ 13.8 px
+
+M5 ≈ 17.3 px
+
+M6 ≈ 20.7 px
+
+High rate of mis-classification :(

@@ -1,0 +1,409 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\ON> .\.venv\Scripts\python.exe auto_annotate.py --input dataset --output annotated --batch
+📂 Batch mode: Processing all subdirectories
+
+
+Annotating dataset\M3 as gauge M3...
+  Processing M3.20260107_202946_658112.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_202951_146354.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_202954_484814.jpg... ✓ 2 screw(s)
+  Processing M3.20260107_203000_607770.jpg... ✓ 4 screw(s)
+  Processing M3.20260107_203004_615368.jpg... ✓ 2 screw(s)
+  Processing M3.20260107_203008_650430.jpg... ✓ 2 screw(s)
+  Processing M3.20260107_203012_233386.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_203016_109984.jpg... ✓ 3 screw(s)
+  Processing M3.20260107_203021_699366.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_203028_817239.jpg... ✓ 3 screw(s)
+  Processing M3.20260107_203214_953768.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_203218_621147.jpg... ✓ 3 screw(s)
+  Processing M3.20260107_203222_425941.jpg... ✓ 5 screw(s)
+  Processing M3.20260107_203226_020136.jpg... ✗ No screws detected
+  Processing M3.20260107_203229_278365.jpg... ✓ 4 screw(s)
+  Processing M3.20260107_203246_947630.jpg... ✓ 4 screw(s)
+  Processing M3.20260107_203257_902831.jpg... ✓ 2 screw(s)
+  Processing M3.20260107_203302_556043.jpg... ✓ 3 screw(s)
+  Processing M3.20260107_203312_313829.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_203317_878891.jpg... ✓ 7 screw(s)
+  Processing M3.20260107_203354_560422.jpg... ✓ 5 screw(s)
+  Processing M3.20260107_203403_608714.jpg... ✓ 7 screw(s)
+  Processing M3.20260107_203420_788801.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_203426_025786.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_203431_110087.jpg... ✓ 2 screw(s)
+  Processing M3.20260107_203435_704406.jpg... ✗ No screws detected
+  Processing M3.20260107_203441_761952.jpg... ✓ 4 screw(s)
+  Processing M3.20260107_203446_448564.jpg... ✗ No screws detected
+  Processing M3.20260107_203452_604513.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_203457_958343.jpg... ✓ 3 screw(s)
+  Processing M3.20260107_203628_949297.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_203635_341961.jpg... ✓ 2 screw(s)
+  Processing M3.20260107_203643_975669.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_203647_967875.jpg... ✗ No screws detected
+  Processing M3.20260107_203651_655662.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_203656_859972.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_203700_499969.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_203704_260228.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_203709_407156.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_203714_237484.jpg... ✗ No screws detected
+  Processing M3.20260107_221122_342037.jpg... ✗ No screws detected
+  Processing M3.20260107_221125_617353.jpg... ✗ No screws detected
+  Processing M3.20260107_221128_895095.jpg... ✗ No screws detected
+  Processing M3.20260107_221132_188284.jpg... ✗ No screws detected
+  Processing M3.20260107_221135_443359.jpg... ✓ 4 screw(s)
+  Processing M3.20260107_221138_690098.jpg... ✗ No screws detected
+  Processing M3.20260107_221141_975285.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_221145_289997.jpg... ✗ No screws detected
+  Processing M3.20260107_221148_669402.jpg... ✗ No screws detected
+  Processing M3.20260107_221152_010306.jpg... ✗ No screws detected
+  Processing M3.20260107_221155_733507.jpg... ✗ No screws detected
+  Processing M3.20260107_221158_939373.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_221202_324404.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_221207_426912.jpg... ✓ 3 screw(s)
+  Processing M3.20260107_221210_870953.jpg... ✗ No screws detected
+  Processing M3.20260107_221214_102042.jpg... ✗ No screws detected
+  Processing M3.20260107_221217_326364.jpg... ✓ 6 screw(s)
+  Processing M3.20260107_221220_676167.jpg... ✗ No screws detected
+  Processing M3.20260107_221223_939816.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_221227_239323.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_221230_863325.jpg... ✗ No screws detected
+  Processing M3.20260107_221236_217839.jpg... ✗ No screws detected
+  Processing M3.20260107_221239_432870.jpg... ✓ 5 screw(s)
+  Processing M3.20260107_221243_339951.jpg... ✗ No screws detected
+  Processing M3.20260107_221246_595442.jpg... ✗ No screws detected
+  Processing M3.20260107_221252_003795.jpg... ✗ No screws detected
+  Processing M3.20260107_221255_263595.jpg... ✗ No screws detected
+  Processing M3.20260107_221259_910219.jpg... ✗ No screws detected
+  Processing M3.20260107_221303_217073.jpg... ✓ 3 screw(s)
+  Processing M3.20260107_221306_523702.jpg... ✗ No screws detected
+  Processing M3.20260107_225235_409547.jpg... ✗ No screws detected
+  Processing M3.20260107_225238_823335.jpg... ✗ No screws detected
+  Processing M3.20260107_225242_251167.jpg... ✗ No screws detected
+  Processing M3.20260107_225245_384228.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_225248_875832.jpg... ✗ No screws detected
+  Processing M3.20260107_225252_014701.jpg... ✗ No screws detected
+  Processing M3.20260107_225255_260707.jpg... ✗ No screws detected
+  Processing M3.20260107_225258_531746.jpg... ✗ No screws detected
+  Processing M3.20260107_225302_053703.jpg... ✗ No screws detected
+  Processing M3.20260107_225305_358429.jpg... ✗ No screws detected
+  Processing M3.20260107_225308_755470.jpg... ✗ No screws detected
+  Processing M3.20260107_225311_906306.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_225315_177058.jpg... ✗ No screws detected
+  Processing M3.20260107_225318_658289.jpg... ✗ No screws detected
+  Processing M3.20260107_225321_913741.jpg... ✗ No screws detected
+  Processing M3.20260107_225325_347893.jpg... ✗ No screws detected
+  Processing M3.20260107_225328_876517.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_225332_245994.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_225335_434653.jpg... ✓ 7 screw(s)
+  Processing M3.20260107_225339_964002.jpg... ✗ No screws detected
+  Processing M3.20260107_225343_342142.jpg... ✗ No screws detected
+  Processing M3.20260107_225346_718264.jpg... ✗ No screws detected
+  Processing M3.20260107_225350_057133.jpg... ✗ No screws detected
+  Processing M3.20260107_225353_239815.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_225356_406076.jpg... ✓ 3 screw(s)
+  Processing M3.20260107_225359_670797.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_225402_973926.jpg... ✗ No screws detected
+  Processing M3.20260107_225406_239141.jpg... ✗ No screws detected
+  Processing M3.20260107_225409_453706.jpg... ✗ No screws detected
+  Processing M3.20260107_225412_960985.jpg... ✗ No screws detected
+  Processing M3.20260107_225458_056194.jpg... ✗ No screws detected
+  Processing M3.20260107_225501_646987.jpg... ✓ 6 screw(s)
+  Processing M3.20260107_225504_818177.jpg... ✗ No screws detected
+  Processing M3.20260107_225508_082807.jpg... ✗ No screws detected
+  Processing M3.20260107_225511_514347.jpg... ✗ No screws detected
+  Processing M3.20260107_225514_817805.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_225520_580550.jpg... ✓ 2 screw(s)
+  Processing M3.20260107_225523_888233.jpg... ✗ No screws detected
+  Processing M3.20260107_225528_131821.jpg... ✓ 2 screw(s)
+  Processing M3.20260107_225531_395875.jpg... ✗ No screws detected
+  Processing M3.20260107_225534_745817.jpg... ✗ No screws detected
+  Processing M3.20260107_225538_126394.jpg... ✗ No screws detected
+  Processing M3.20260107_225542_669480.jpg... ✗ No screws detected
+  Processing M3.20260107_225545_893185.jpg... ✗ No screws detected
+  Processing M3.20260107_225549_189630.jpg... ✗ No screws detected
+  Processing M3.20260107_225552_525196.jpg... ✗ No screws detected
+  Processing M3.20260107_225555_861372.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_225559_288093.jpg... ✗ No screws detected
+  Processing M3.20260107_225602_572752.jpg... ✗ No screws detected
+  Processing M3.20260107_225605_773282.jpg... ✗ No screws detected
+  Processing M3.20260107_225609_055642.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_225612_255068.jpg... ✗ No screws detected
+  Processing M3.20260107_225615_544490.jpg... ✗ No screws detected
+  Processing M3.20260107_225618_857110.jpg... ✗ No screws detected
+  Processing M3.20260107_225622_037856.jpg... ✗ No screws detected
+  Processing M3.20260107_225625_669742.jpg... ✗ No screws detected
+  Processing M3.20260107_225628_918182.jpg... ✗ No screws detected
+  Processing M3.20260107_225632_232756.jpg... ✗ No screws detected
+  Processing M3.20260107_225635_964322.jpg... ✓ 4 screw(s)
+  Processing M3.20260107_225639_279469.jpg... ✓ 2 screw(s)
+  Processing M3.20260107_225723_879235.jpg... ✗ No screws detected
+  Processing M3.20260107_225727_079091.jpg... ✗ No screws detected
+  Processing M3.20260107_225730_479205.jpg... ✗ No screws detected
+  Processing M3.20260107_225734_148878.jpg... ✗ No screws detected
+  Processing M3.20260107_225737_536525.jpg... ✗ No screws detected
+  Processing M3.20260107_225740_869274.jpg... ✗ No screws detected
+  Processing M3.20260107_225744_034517.jpg... ✗ No screws detected
+  Processing M3.20260107_225747_200384.jpg... ✗ No screws detected
+  Processing M3.20260107_225750_546766.jpg... ✗ No screws detected
+  Processing M3.20260107_225753_817008.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_225757_082294.jpg... ✓ 7 screw(s)
+  Processing M3.20260107_225800_315936.jpg... ✗ No screws detected
+  Processing M3.20260107_225803_635750.jpg... ✗ No screws detected
+  Processing M3.20260107_225806_931730.jpg... ✗ No screws detected
+  Processing M3.20260107_225810_208690.jpg... ✗ No screws detected
+  Processing M3.20260107_225813_542110.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_225816_784831.jpg... ✗ No screws detected
+  Processing M3.20260107_225822_704991.jpg... ✗ No screws detected
+  Processing M3.20260107_225826_333673.jpg... ✗ No screws detected
+  Processing M3.20260107_225829_796821.jpg... ✗ No screws detected
+  Processing M3.20260107_225833_095031.jpg... ✗ No screws detected
+  Processing M3.20260107_225836_708458.jpg... ✗ No screws detected
+  Processing M3.20260107_225840_026751.jpg... ✗ No screws detected
+  Processing M3.20260107_225843_784048.jpg... ✗ No screws detected
+  Processing M3.20260107_225847_007923.jpg... ✗ No screws detected
+  Processing M3.20260107_225850_284004.jpg... ✗ No screws detected
+  Processing M3.20260107_225853_564107.jpg... ✗ No screws detected
+  Processing M3.20260107_225856_743918.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_225900_066059.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_225903_592211.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_225958_179742.jpg... ✗ No screws detected
+  Processing M3.20260107_230001_431495.jpg... ✗ No screws detected
+  Processing M3.20260107_230004_788470.jpg... ✗ No screws detected
+  Processing M3.20260107_230008_186383.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_230011_610613.jpg... ✗ No screws detected
+  Processing M3.20260107_230014_996386.jpg... ✗ No screws detected
+  Processing M3.20260107_230018_265904.jpg... ✗ No screws detected
+  Processing M3.20260107_230021_653619.jpg... ✗ No screws detected
+  Processing M3.20260107_230026_171317.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_230029_525857.jpg... ✗ No screws detected
+  Processing M3.20260107_230032_774804.jpg... ✓ 3 screw(s)
+  Processing M3.20260107_230036_242593.jpg... ✓ 2 screw(s)
+  Processing M3.20260107_230039_767591.jpg... ✗ No screws detected
+  Processing M3.20260107_230043_110066.jpg... ✗ No screws detected
+  Processing M3.20260107_230046_537876.jpg... ✗ No screws detected
+  Processing M3.20260107_230049_805922.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_230053_165209.jpg... ✗ No screws detected
+  Processing M3.20260107_230056_455559.jpg... ✗ No screws detected
+  Processing M3.20260107_230100_111649.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_230103_388712.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_230107_688997.jpg... ✗ No screws detected
+  Processing M3.20260107_230111_015276.jpg... ✗ No screws detected
+  Processing M3.20260107_230114_363514.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_230117_671221.jpg... ✗ No screws detected
+  Processing M3.20260107_230120_960528.jpg... ✗ No screws detected
+  Processing M3.20260107_230126_384182.jpg... ✓ 5 screw(s)
+  Processing M3.20260107_230129_695895.jpg... ✗ No screws detected
+  Processing M3.20260107_230132_900851.jpg... ✓ 2 screw(s)
+  Processing M3.20260107_230136_154835.jpg... ✓ 3 screw(s)
+  Processing M3.20260107_230139_468973.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_230543_550531.jpg... ✗ No screws detected
+  Processing M3.20260107_230547_925050.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_230551_747020.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_230555_192239.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_230558_766341.jpg... ✗ No screws detected
+  Processing M3.20260107_230602_366188.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_230605_845176.jpg... ✗ No screws detected
+  Processing M3.20260107_230609_142832.jpg... ✗ No screws detected
+  Processing M3.20260107_230612_575455.jpg... ✗ No screws detected
+  Processing M3.20260107_230616_550436.jpg... ✗ No screws detected
+  Processing M3.20260107_230619_906475.jpg... ✗ No screws detected
+  Processing M3.20260107_230623_183184.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_230626_621520.jpg... ✓ 2 screw(s)
+  Processing M3.20260107_230630_077710.jpg... ✗ No screws detected
+  Processing M3.20260107_230637_433396.jpg... ✓ 2 screw(s)
+  Processing M3.20260107_230641_026523.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_230644_841920.jpg... ✗ No screws detected
+  Processing M3.20260107_230649_527144.jpg... ✗ No screws detected
+  Processing M3.20260107_230652_981500.jpg... ✗ No screws detected
+  Processing M3.20260107_230657_872540.jpg... ✗ No screws detected
+  Processing M3.20260107_230701_181669.jpg... ✗ No screws detected
+  Processing M3.20260107_230704_630008.jpg... ✗ No screws detected
+  Processing M3.20260107_230708_099839.jpg... ✗ No screws detected
+  Processing M3.20260107_230711_275313.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_230714_951171.jpg... ✓ 5 screw(s)
+  Processing M3.20260107_230719_816232.jpg... ✓ 3 screw(s)
+  Processing M3.20260107_230723_079443.jpg... ✗ No screws detected
+  Processing M3.20260107_230726_320822.jpg... ✓ 1 screw(s)
+  Processing M3.20260107_230729_642196.jpg... ✗ No screws detected
+  Processing M3.20260107_230733_366502.jpg... ✓ 2 screw(s)
+  ✓ 92/220 images annotated
+  📊 Total 200 screws detected
+
+
+Annotating dataset\M4 as gauge M4...
+  Processing M4.20260107_204244_334946.jpg... ✗ No screws detected
+  Processing M4.20260107_204247_612468.jpg... ✗ No screws detected
+  Processing M4.20260107_204250_913604.jpg... ✗ No screws detected
+  Processing M4.20260107_204254_323558.jpg... ✗ No screws detected
+  Processing M4.20260107_204257_596551.jpg... ✓ 1 screw(s)
+  Processing M4.20260107_204302_200196.jpg... ✓ 1 screw(s)
+  Processing M4.20260107_204305_609510.jpg... ✓ 1 screw(s)
+  Processing M4.20260107_204308_901148.jpg... ✗ No screws detected
+  Processing M4.20260107_204312_255568.jpg... ✗ No screws detected
+  Processing M4.20260107_204315_542597.jpg... ✗ No screws detected
+  Processing M4.20260107_204335_899228.jpg... ✓ 1 screw(s)
+  Processing M4.20260107_204339_226728.jpg... ✓ 3 screw(s)
+  Processing M4.20260107_204342_839656.jpg... ✗ No screws detected
+  Processing M4.20260107_204346_197091.jpg... ✗ No screws detected
+  Processing M4.20260107_204350_704539.jpg... ✓ 1 screw(s)
+  Processing M4.20260107_204353_934530.jpg... ✓ 2 screw(s)
+  Processing M4.20260107_204357_176238.jpg... ✓ 1 screw(s)
+  Processing M4.20260107_204400_535019.jpg... ✗ No screws detected
+  Processing M4.20260107_204403_879432.jpg... ✗ No screws detected
+  Processing M4.20260107_204406_982053.jpg... ✗ No screws detected
+  Processing M4.20260107_204538_489607.jpg... ✗ No screws detected
+  Processing M4.20260107_204541_658817.jpg... ✓ 2 screw(s)
+  Processing M4.20260107_204546_116360.jpg... ✓ 2 screw(s)
+  Processing M4.20260107_204549_579366.jpg... ✓ 1 screw(s)
+  Processing M4.20260107_204554_142701.jpg... ✗ No screws detected
+  Processing M4.20260107_204557_405464.jpg... ✓ 1 screw(s)
+  Processing M4.20260107_204600_920874.jpg... ✓ 3 screw(s)
+  Processing M4.20260107_204604_123710.jpg... ✗ No screws detected
+  Processing M4.20260107_204607_293839.jpg... ✗ No screws detected
+  Processing M4.20260107_204610_552759.jpg... ✗ No screws detected
+  Processing M4.20260107_204719_743875.jpg... ✓ 1 screw(s)
+  Processing M4.20260107_204722_973162.jpg... ✓ 1 screw(s)
+  Processing M4.20260107_204726_242060.jpg... ✓ 1 screw(s)
+  Processing M4.20260107_204729_558390.jpg... ✓ 1 screw(s)
+  Processing M4.20260107_204732_954108.jpg... ✓ 2 screw(s)
+  Processing M4.20260107_204736_496615.jpg... ✓ 1 screw(s)
+  Processing M4.20260107_204740_095799.jpg... ✗ No screws detected
+  Processing M4.20260107_204743_436962.jpg... ✗ No screws detected
+  Processing M4.20260107_204746_801507.jpg... ✗ No screws detected
+  Processing M4.20260107_204750_063893.jpg... ✓ 2 screw(s)
+  Processing M4.20260107_205009_166605.jpg... ✗ No screws detected
+  Processing M4.20260107_205012_882243.jpg... ✗ No screws detected
+  Processing M4.20260107_205016_141559.jpg... ✓ 1 screw(s)
+  Processing M4.20260107_205019_419722.jpg... ✓ 1 screw(s)
+  Processing M4.20260107_205022_540669.jpg... ✗ No screws detected
+  Processing M4.20260107_205026_502329.jpg... ✗ No screws detected
+  Processing M4.20260107_205029_827138.jpg... ✓ 6 screw(s)
+  Processing M4.20260107_205032_988906.jpg... ✓ 1 screw(s)
+  Processing M4.20260107_205036_203769.jpg... ✓ 1 screw(s)
+  Processing M4.20260107_205039_352245.jpg... ✓ 1 screw(s)
+  ✓ 26/50 images annotated
+  📊 Total 40 screws detected
+
+
+Annotating dataset\M5 as gauge M5...
+  Processing M5.20260107_205152_045023.jpg... ✓ 1 screw(s)
+  Processing M5.20260107_205155_395217.jpg... ✗ No screws detected
+  Processing M5.20260107_205158_610917.jpg... ✓ 1 screw(s)
+  Processing M5.20260107_205201_822393.jpg... ✗ No screws detected
+  Processing M5.20260107_205205_211232.jpg... ✗ No screws detected
+  Processing M5.20260107_205208_671039.jpg... ✓ 3 screw(s)
+  Processing M5.20260107_205211_953219.jpg... ✓ 2 screw(s)
+  Processing M5.20260107_205215_138071.jpg... ✗ No screws detected
+  Processing M5.20260107_205218_403387.jpg... ✗ No screws detected
+  Processing M5.20260107_205223_824464.jpg... ✓ 2 screw(s)
+  Processing M5.20260107_205243_373431.jpg... ✗ No screws detected
+  Processing M5.20260107_205246_731932.jpg... ✗ No screws detected
+  Processing M5.20260107_205250_471043.jpg... ✓ 1 screw(s)
+  Processing M5.20260107_205253_896808.jpg... ✓ 1 screw(s)
+  Processing M5.20260107_205257_109783.jpg... ✓ 2 screw(s)
+  Processing M5.20260107_205300_333928.jpg... ✗ No screws detected
+  Processing M5.20260107_205303_556022.jpg... ✓ 1 screw(s)
+  Processing M5.20260107_205306_773722.jpg... ✗ No screws detected
+  Processing M5.20260107_205310_230683.jpg... ✗ No screws detected
+  Processing M5.20260107_205313_507437.jpg... ✓ 1 screw(s)
+  Processing M5.20260107_205355_039850.jpg... ✗ No screws detected
+  Processing M5.20260107_205358_356183.jpg... ✗ No screws detected
+  Processing M5.20260107_205401_543210.jpg... ✗ No screws detected
+  Processing M5.20260107_205404_899357.jpg... ✗ No screws detected
+  Processing M5.20260107_205408_092023.jpg... ✓ 1 screw(s)
+  Processing M5.20260107_205411_418553.jpg... ✓ 1 screw(s)
+  Processing M5.20260107_205414_580328.jpg... ✓ 1 screw(s)
+  Processing M5.20260107_205417_822903.jpg... ✓ 2 screw(s)
+  Processing M5.20260107_205421_088830.jpg... ✗ No screws detected
+  Processing M5.20260107_205424_524314.jpg... ✗ No screws detected
+  Processing M5.20260107_205522_112752.jpg... ✓ 2 screw(s)
+  Processing M5.20260107_205525_766899.jpg... ✓ 3 screw(s)
+  Processing M5.20260107_205529_150741.jpg... ✗ No screws detected
+  Processing M5.20260107_205532_450430.jpg... ✓ 1 screw(s)
+  Processing M5.20260107_205535_690812.jpg... ✓ 4 screw(s)
+  Processing M5.20260107_205538_942720.jpg... ✗ No screws detected
+  Processing M5.20260107_205542_299990.jpg... ✓ 1 screw(s)
+  Processing M5.20260107_205546_263007.jpg... ✓ 1 screw(s)
+  Processing M5.20260107_205549_518273.jpg... ✓ 1 screw(s)
+  Processing M5.20260107_205552_694184.jpg... ✓ 2 screw(s)
+  ✓ 22/40 images annotated
+  📊 Total 35 screws detected
+
+
+Annotating dataset\M6 as gauge M6...
+  Processing M6.20260107_205735_803719.jpg... ✓ 1 screw(s)
+  Processing M6.20260107_205739_359234.jpg... ✗ No screws detected
+  Processing M6.20260107_205749_372265.jpg... ✗ No screws detected
+  Processing M6.20260107_205753_060431.jpg... ✗ No screws detected
+  Processing M6.20260107_205756_802175.jpg... ✗ No screws detected
+  Processing M6.20260107_205800_306550.jpg... ✗ No screws detected
+  Processing M6.20260107_205804_142586.jpg... ✗ No screws detected
+  Processing M6.20260107_205809_765257.jpg... ✗ No screws detected
+  Processing M6.20260107_205814_070926.jpg... ✗ No screws detected
+  Processing M6.20260107_205818_303480.jpg... ✓ 3 screw(s)
+  Processing M6.20260107_205823_360431.jpg... ✗ No screws detected
+  Processing M6.20260107_205828_230452.jpg... ✓ 5 screw(s)
+  Processing M6.20260107_205831_800066.jpg... ✗ No screws detected
+  Processing M6.20260107_205835_126391.jpg... ✓ 1 screw(s)
+  Processing M6.20260107_205839_391476.jpg... ✓ 2 screw(s)
+  Processing M6.20260107_205845_432156.jpg... ✗ No screws detected
+  Processing M6.20260107_205851_110190.jpg... ✗ No screws detected
+  Processing M6.20260107_205854_697174.jpg... ✓ 2 screw(s)
+  Processing M6.20260107_205900_716940.jpg... ✗ No screws detected
+  Processing M6.20260107_205904_829074.jpg... ✗ No screws detected
+  Processing M6.20260107_205922_953665.jpg... ✗ No screws detected
+  Processing M6.20260107_205926_471732.jpg... ✓ 1 screw(s)
+  Processing M6.20260107_205930_155322.jpg... ✓ 2 screw(s)
+  Processing M6.20260107_205936_352055.jpg... ✓ 1 screw(s)
+  Processing M6.20260107_205940_705105.jpg... ✗ No screws detected
+  Processing M6.20260107_205944_752425.jpg... ✗ No screws detected
+  Processing M6.20260107_205948_144654.jpg... ✗ No screws detected
+  Processing M6.20260107_205953_171403.jpg... ✗ No screws detected
+  Processing M6.20260107_205957_225645.jpg... ✗ No screws detected
+  Processing M6.20260107_210001_970417.jpg... ✓ 1 screw(s)
+  Processing M6.20260107_210005_641150.jpg... ✓ 2 screw(s)
+  Processing M6.20260107_210009_161854.jpg... ✗ No screws detected
+  Processing M6.20260107_210012_680256.jpg... ✗ No screws detected
+  Processing M6.20260107_210016_690536.jpg... ✗ No screws detected
+  Processing M6.20260107_210020_428942.jpg... ✗ No screws detected
+  Processing M6.20260107_210024_033122.jpg... ✓ 2 screw(s)
+  Processing M6.20260107_210027_885806.jpg... ✗ No screws detected
+  Processing M6.20260107_210031_405975.jpg... ✓ 1 screw(s)
+  Processing M6.20260107_210035_175513.jpg... ✗ No screws detected
+  Processing M6.20260107_210038_379546.jpg... ✓ 2 screw(s)
+  Processing M6.20260107_210253_636156.jpg... ✗ No screws detected
+  Processing M6.20260107_210257_116965.jpg... ✗ No screws detected
+  Processing M6.20260107_210300_581298.jpg... ✗ No screws detected
+  Processing M6.20260107_210306_376618.jpg... ✗ No screws detected
+  Processing M6.20260107_210312_120543.jpg... ✓ 1 screw(s)
+  Processing M6.20260107_210315_952315.jpg... ✗ No screws detected
+  Processing M6.20260107_210319_731967.jpg... ✓ 2 screw(s)
+  Processing M6.20260107_210325_071910.jpg... ✗ No screws detected
+  Processing M6.20260107_210328_621232.jpg... ✗ No screws detected
+  Processing M6.20260107_210334_832413.jpg... ✓ 3 screw(s)
+  Processing M6.20260107_210338_228359.jpg... ✓ 2 screw(s)
+  Processing M6.20260107_210341_524537.jpg... ✗ No screws detected
+  Processing M6.20260107_210344_893939.jpg... ✗ No screws detected
+  Processing M6.20260107_210348_554998.jpg... ✗ No screws detected
+  Processing M6.20260107_210353_621653.jpg... ✗ No screws detected
+  Processing M6.20260107_210357_091991.jpg... ✗ No screws detected
+  Processing M6.20260107_210400_312547.jpg... ✗ No screws detected
+  Processing M6.20260107_210404_020030.jpg... ✗ No screws detected
+  Processing M6.20260107_210407_254675.jpg... ✓ 1 screw(s)
+  Processing M6.20260107_210410_442389.jpg... ✓ 1 screw(s)
+  ✓ 20/60 images annotated
+  📊 Total 36 screws detected
+
+============================================================
+BATCH COMPLETE
+============================================================
+Total successful: 160
+Total failed: 210
+Total detections: 311
+
+📁 Output directory: annotated
+   ├── images/     (annotated images)
+   ├── labels/     (YOLO .txt labels)
+PS C:\Users\ON>
